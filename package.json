@@ -1,0 +1,27 @@
+{
+  "name": "node-typebox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.13.5",
+    "@types/koa__router": "^8.0.11",
+    "@types/node": "^18.7.5",
+    "esbuild": "^0.15.3",
+    "esbuild-node-tsc": "^2.0.1",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "@sinclair/typebox": "^0.24.28",
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0"
+  }
+}
