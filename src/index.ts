@@ -15,7 +15,7 @@ app.use(koaBody());
 router.post("/", (ctx) => {
   const body = ctx.request.body as ProfileSchemaType;
   const data = profileValidation.verify(body);
-  ctx.body = data;
+  ctx.body = { data };
 });
 
 app.use(router.routes());
